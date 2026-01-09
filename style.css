@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    margin-left: 120px;
+    margin-top:16px;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    gap:40px;
+    align-items: center; 
+}
+.menu a{
+    font-size: 16px;
+    font-weight: 500;
+    color:#000000;
+    text-decoration: none;
+}  
+.btn{
+    background-color:#469165;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight:600;
+    margin:24px 120px;
+    padding: 13px 17px;
+    border-radius: 5px;
+     cursor: pointer;
+}
+
+.main-bg{
+        background-image: url(./assets/hero-bg.png);
+        max-width: 1600px;
+        height: 675px;
+
+}
+.badge{
+    font-size: 16px;
+    font-weight: 500;
+    color:#469165;
+    background-color:#FFFFFF;
+    max-width: 260px;
+    padding: 12px 12px 12px 20px; 
+    margin-bottom: 16px;  
+    border-radius: 1000px;
+    
+}
+
+.bg-container{
+ padding: 116px 120px;
+
+}
+.h1-a{
+    color:#FFFFFF;
+    font-size: 72px;
+    font-weight:bold;
+    line-height: 84px;
+}
+.h1-b{
+     color:#30B868;
+    font-size: 72px;
+    font-weight:bold;
+    line-height: 84px;
+}
+.paragraph-a{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    line-height: 24px;
+    color:#FFFFFF;
+}
+.bg-container{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+.btn-a{
+    background-color:#469165;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight:600;
+    padding: 16.5px 16px;
+    border-radius: 5px;
+     cursor: pointer;
+}
+
+.btn-b{
+    font-size: 16px;
+    font-weight: 600;
+    color:#FFFFFF;
+    background-color: transparent;
+    padding: 16.5px 16px;
+    border:solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-flex{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 16px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    padding:24px;
+}
+.card-info{
+    width: 322px;
+    height: 350px;
+    box-shadow: 0 3px 15px 0 #e6eaee;
+}
+
+.card-info img{
+width: 60px;
+height: 60px;
+background-color:#F95555;
+padding:14px 15px;
+margin: 70px 131px 16px 131px;
+border-radius: 100px;
+}
+.card-info h4{
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #001931;
+    margin: 16px 24px 16px 24px;
+}
+.card-info:hover{
+    background-color:gainsboro;
+}
+.card-info p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+    text-align:center;
+    padding:16px 25px 70px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading h3{
+    font-size: 48px;
+    font-weight:bold;
+    margin-bottom: 16px;
+}
+.section-heading p{
+    margin-bottom: 45px;
+}
+.more-info{
+    box-sizing: content-box;
+    
+}
+
+
