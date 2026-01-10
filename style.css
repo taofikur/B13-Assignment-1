@@ -47,15 +47,21 @@ nav{
 
 }
 .badge{
+    display: inline-flex;
+    align-items: center;
     font-size: 16px;
     font-weight: 500;
     color:#469165;
     background-color:#FFFFFF;
-    max-width: 260px;
-    padding: 12px 12px 12px 20px; 
+    max-width: 240px;
+    height: 35px;
+    padding: 12px 12px 12px 12px;
     margin-bottom: 16px;  
     border-radius: 1000px;
     
+}
+.badge-icon{
+    padding-right: 8px;
 }
 
 .bg-container{
@@ -165,8 +171,46 @@ border-radius: 100px;
 .section-heading p{
     margin-bottom: 45px;
 }
-.more-info{
-    box-sizing: content-box;
+.solution-section{
+    display: flex;
+    gap: 60px;
+    margin:50px;
+    margin-left: 100px; 
+}
+.solutions{
+    padding-top: 102px;   
+}
+.solutions h5{
+    font-size: 16px;
+    font-weight: 500;
+    color:#469165;
+    line-height: 20px;
+}
+.solutions h3{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931; 
+    padding-top:16px;
 }
 
+.solutions p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    width: 700px;
+    height: 60px;
+    padding-top: 16px;
+}
+.s-points{
+    list-style: none;
+    padding:40px;
+}
+.s-points li{
+    display: flex;
+    margin-bottom: 16px;
+}
+.s-points li span{
+    margin-right: 6px;
+}
 
