@@ -9,7 +9,6 @@
 }
 nav{
     display: flex;
-
 }
 .logo{
     margin-left: 120px;
@@ -20,7 +19,6 @@ nav{
     display: flex;
     list-style: none;
     margin: 0 auto;
-    margin-left: 350px;
     gap:40px;
     align-items: center; 
 }
@@ -44,17 +42,17 @@ nav{
     gap: 10px;
 }
 .btn:hover{
-    color: lightblue;
+    background-color:lightgreen;
 }
 .btn-a:hover{
-    color: lightblue;
+    color: lightgreen;
 }
 .btn-b:hover{
-    color: lightblue;
+    color: lightgreen;
 }
 .main-bg{
         background-image: url(./assets/hero-bg.png);
-        max-width: auto;
+        width: 100%;
         height: 675px;
 
 }
@@ -78,7 +76,10 @@ nav{
 
 .bg-container{
  padding: 116px 120px;
-
+ display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
 }
 .h1-a{
     color:#FFFFFF;
@@ -99,12 +100,6 @@ nav{
     margin-top: 16px;
     line-height: 24px;
     color:#FFFFFF;
-}
-.bg-container{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
 }
 .btn-a{
     background-color:#469165;
@@ -161,7 +156,8 @@ width: 60px;
 height: 60px;
 background-color:#F95555;
 padding:14px 15px;
-margin: 70px 131px 16px 131px;
+margin: 70px auto 16px;
+display: block;
 border-radius: 100px;
 }
 .card-info h4{
