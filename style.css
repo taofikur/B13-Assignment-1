@@ -45,10 +45,10 @@ nav{
     background-color:lightgreen;
 }
 .btn-a:hover{
-    color: lightgreen;
+    background-color: lightgreen;
 }
 .btn-b:hover{
-    color: lightgreen;
+    background-color: lightgreen;
 }
 .main-bg{
         background-image: url(./assets/hero-bg.png);
