@@ -43,6 +43,15 @@ nav{
     display: inline-flex;
     gap: 10px;
 }
+.btn:hover{
+    color: lightblue;
+}
+.btn-a:hover{
+    color: lightblue;
+}
+.btn-b:hover{
+    color: lightblue;
+}
 .main-bg{
         background-image: url(./assets/hero-bg.png);
         max-width: auto;
@@ -131,7 +140,9 @@ align-items: center;
 border: none;
 gap: 16px;
 }
-
+.cards{
+    margin-top: 50px;
+}
 .card-container{
     display: flex;
     justify-content: center;
