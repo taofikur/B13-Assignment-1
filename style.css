@@ -20,6 +20,7 @@ nav{
     display: flex;
     list-style: none;
     margin: 0 auto;
+    margin-left: 350px;
     gap:40px;
     align-items: center; 
 }
@@ -42,10 +43,9 @@ nav{
     display: inline-flex;
     gap: 10px;
 }
-
 .main-bg{
         background-image: url(./assets/hero-bg.png);
-        max-width: 1600px;
+        max-width: auto;
         height: 675px;
 
 }
@@ -87,6 +87,7 @@ nav{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
+    margin-top: 16px;
     line-height: 24px;
     color:#FFFFFF;
 }
@@ -136,7 +137,7 @@ gap: 16px;
     justify-content: center;
     align-items: center;
     gap:25px;
-    padding:24px;
+    padding:15px;
 }
 .card-info{
     width: 322px;
@@ -213,7 +214,7 @@ border-radius: 100px;
 }
 .s-points{
     list-style: none;
-    padding-top:40px;
+    padding-top:50px;
     
 }
 .s-points li{
@@ -228,6 +229,8 @@ border-radius: 100px;
     max-width: 1360px;
     height: 385px;
     margin: 0 auto;
+    border-radius: 10px;
+    margin-top:110px;
 }
 .challenge-section h2{
     font-size: 40px;
