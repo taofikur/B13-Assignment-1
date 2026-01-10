@@ -204,7 +204,8 @@ border-radius: 100px;
 }
 .s-points{
     list-style: none;
-    padding:40px;
+    padding-top:40px;
+    
 }
 .s-points li{
     display: flex;
@@ -213,4 +214,3 @@ border-radius: 100px;
 .s-points li span{
     margin-right: 6px;
 }
-
